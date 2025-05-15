@@ -47,17 +47,7 @@ npm install
 npm run dev
 ```
 
-## Docker
 
-You can run the whole project with Docker:
-```
-docker-compose up --build
-```
-
-- Frontend: http://localhost:5173
-- Backend/Swagger: http://localhost:5000/swagger
-
-## Notes
 
 I used Swagger to check the endpoints while testing the backend.
 Frontend was bootstrapped with Vite and uses react-router.
